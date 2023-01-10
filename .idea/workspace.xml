@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/mailbox/src/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailbox/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailbox/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mailbox" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HrOe6AoWGER81hwNYaEYW60U2N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/janek/WebstormProjects/AdminMailer/mailbox",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/home/janek/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mailbox" />
+      <recent name="$PROJECT_DIR$/mailbox/src/pages" />
+      <recent name="$PROJECT_DIR$/mailbox/src" />
+      <recent name="$PROJECT_DIR$/server/messages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mailbox/src" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="" />
+      <created>1669039827865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669039827865</updated>
+      <workItem from="1669039829057" duration="2190000" />
+      <workItem from="1669042036223" duration="48000" />
+      <workItem from="1669042095498" duration="3054000" />
+      <workItem from="1669113475678" duration="5229000" />
+      <workItem from="1669385431052" duration="5052000" />
+      <workItem from="1669640845755" duration="7093000" />
+      <workItem from="1669711878690" duration="1784000" />
+      <workItem from="1669718780529" duration="10891000" />
+      <workItem from="1669797688321" duration="278000" />
+      <workItem from="1669809048176" duration="119000" />
+      <workItem from="1670432891215" duration="123000" />
+      <workItem from="1670585272162" duration="31000" />
+      <workItem from="1671459470441" duration="227000" />
+      <workItem from="1671459698957" duration="4579000" />
+      <workItem from="1671472117610" duration="367000" />
+      <workItem from="1671525707132" duration="13870000" />
+      <workItem from="1673273065627" duration="5722000" />
+      <workItem from="1673346737289" duration="11718000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1669043212143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669043212143</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added a lot of stuff including adding posts and highlighting them">
+      <created>1669723937988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669723937988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1669723985601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669723985601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1669730640537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669730640537</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/mail" />
+    </ignored-roots>
+    <MESSAGE value="added a lot of stuff including adding posts and highlighting them" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>

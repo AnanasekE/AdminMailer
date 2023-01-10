@@ -1,0 +1,45 @@
+@import './../../colors';
+
+.Login-container {
+    height: 100vh;
+    background: $template;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: -80px 0 20px;
+        color: $whiteWashy;
+        font-size: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            border: none;
+            padding: 8px 20px;
+            background: $white;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: $text;
+            border-radius: 6px;
+        }
+
+        button {
+            border: none;
+            background: $header;
+            color: $white;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+
+            &:hover {
+                background: $headerHover;
+            }
+        }
+    }
+}
