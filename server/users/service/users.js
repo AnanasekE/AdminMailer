@@ -33,10 +33,10 @@ const addUser = async (req, res) => {
 
 const getUsers = async (req, res) => {
     try {
-        const token = req.query.token;
-        const decoded = jwt.verify(token, 'admin4123');
-
-        if (!decoded.admin) return res.status(403).json({success: false});
+        // const token = req.query.token;
+        // const decoded = jwt.verify(token, 'admin4123');
+        //
+        // if (!decoded.admin) return res.status(403).json({success: false});
 
         const users = await User.find().sort({date: -1}).limit(15);
 

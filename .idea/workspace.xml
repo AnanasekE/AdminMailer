@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/_colors.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/pages/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mailbox/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/login/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailbox" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login/login.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/login.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login/service/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/service/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login/service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/messages/messages.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/messages.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/messages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/messages/service/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/service/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/messages/service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/posts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/posts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/posts/posts.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/posts/posts.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/posts/service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/posts/service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/posts/service/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/posts/service/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/users/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/users/service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/users/service/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/service/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/users/users.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/users.route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +59,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mailbox" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,22 +70,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/janek/WebstormProjects/AdminMailer/mailbox",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/home/janek/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/janek/Documents/WebstormProjects/AdminMailer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/janek/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mailbox" />
@@ -90,6 +126,11 @@
       <workItem from="1671525707132" duration="13870000" />
       <workItem from="1673273065627" duration="5722000" />
       <workItem from="1673346737289" duration="11718000" />
+      <workItem from="1673394369355" duration="506000" />
+      <workItem from="1673395036428" duration="72000" />
+      <workItem from="1673395118655" duration="38000" />
+      <workItem from="1673395526510" duration="227000" />
+      <workItem from="1673421343696" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1669043212143</created>
