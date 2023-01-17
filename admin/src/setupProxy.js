@@ -5,6 +5,7 @@ module.exports = function (app) {
         [
             '/api/admin/login',
             '/api/users',
+            '/api/users/remove',
         ],
         createProxyMiddleware({
             target: 'http://localhost:8080',

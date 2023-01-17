@@ -2,8 +2,25 @@ import React, {useEffect} from 'react';
 import './Dashboard.scss';
 import axios from "axios";
 import {useState} from "react";
+import {useNavigate} from "react-router-dom";
 
 const Dashboard = () => {
+
+    const navigate = useNavigate();
+
+    const verifyToken = async () => {
+        const token = sessionStorage.getItem('token');
+        const response = await axios.post('/api/token/verify', {token}, {});
+
+        if (!response.data.success) {
+            navigate('/login');
+        }
+    }
+
+    useEffect(() => {
+        verifyToken();
+    }, [])
+
     const [users, setUsers] = useState([]);
 
     const nameRef = React.createRef();
@@ -60,6 +77,13 @@ const Dashboard = () => {
         }
 
     };
+    const removeUser = async (id) => {
+        const response = await axios.post('/api/users/remove', {id});
+
+        if (response.data.success) {
+            getUsers();
+        }
+    }
 
     useEffect(() => {
         getUsers();
@@ -78,14 +102,24 @@ const Dashboard = () => {
                 <input ref={passwordRef} type='text' placeholder='Password' defaultValue={'test1'}/>
                 <button onClick={addUser}>Dodaj</button>
             </form>
-            <div>
-                <h2 className={'emailList'}>Email list</h2>
+            <h2 className={'emailList'}>Email list</h2>
+
+            <div className={'listEmails'}>
+                <div className={'field'}>
+                    <h3>Name</h3>
+                    <h3>Surname</h3>
+                    <h3>Email</h3>
+                    <h3>Password</h3>
+                </div>
                 {users.map(user => (
                     <div key={user._id} className={'users'}>
                         <p className={'name'}>{user.name.length < 25 ? user.name : user.name.substr(0, 22) + '...'}</p>
                         <p className={'surname'}>{user.surname.length < 25 ? user.surname : user.surname.substr(0, 22) + '...'}</p>
                         <p className={'email'}>{user.email.length < 25 ? user.email : user.email.substr(0, 22) + '...'}</p>
                         <p className={'password'}>{user.password.length < 25 ? user.password : user.password.substr(0, 22) + '...'}</p>
+                        <button onClick={() => {
+                            removeUser(user._id)}
+                        }>Remove User</button>
                     </div>
                 ))}
             </div>

@@ -14,26 +14,21 @@ const login = async (req, res) => {
         // console.log(user.admin)
         if (user.admin && req.url === '/api/admin/login') {
             // Admin Login
-            console.log('admin login')
-            // console.log(user)
             if (!user) return res.status(200).json({success: false});
 
             if (data.password === user.password && user.admin) {
-                console.log('admin login success')
                 const token = jwt.sign({email: user.email, admin: user.admin}, 'admin4123');
 
                 return res.status(200).json({success: true, token});
             }
         } else {
             // User Login
-            console.log('user login')
             if (!user) return res.status(200).json({success: false});
 
             if (data.password === user.password) {
-                console.log('user login success')
                 const token = jwt.sign({email: user.email}, 'admin4123');
 
-                return res.status(200).json({success: true, token});
+                return res.status(200).json({success: true, token, email: user.email});
             }
         }
 

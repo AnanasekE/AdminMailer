@@ -9,9 +9,14 @@
     align-items: center;
 
     h1 {
-        margin: -80px 0 20px;
+        //margin: -80px 0 20px;
         color: $whiteWashy;
         font-size: 20px;
+    }
+
+    .listEmails {
+        overflow: scroll;
+        height: 75vh;
     }
 
     form {
@@ -25,11 +30,10 @@
             border: none;
             padding: 8px 20px;
             background: $white;
-            margin-bottom: 20px;
             font-weight: bold;
             color: $text;
             border-radius: 6px;
-            margin: 5px;
+            margin: 5px 5px 20px;
         }
 
         button {
@@ -67,4 +71,26 @@
 
 .emailList {
     color: $whiteWashy;
+}
+
+.field {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+    color: $white;
+}
+button {
+    border: none;
+    background: $header;
+    color: $white;
+    padding: 6px 20px;
+    margin: 0 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background: $headerHover;
+    }
 }

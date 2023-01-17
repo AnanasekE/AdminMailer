@@ -6,6 +6,8 @@ const mongoose = require('mongoose');
 const postsApi = require('./server/posts');
 const loginApi = require('./server/login');
 const userApi = require('./server/users');
+const messagesApi = require('./server/messages');
+const tokensApi = require('./server/tokens');
 
 app.use('/', express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -14,6 +16,8 @@ app.use(cookieParser());
 app.use(postsApi);
 app.use(loginApi);
 app.use(userApi);
+app.use(messagesApi);
+app.use(tokensApi);
 
 const db = 'mongodb+srv://admin:admintechni123@cluster0.zfvtf.mongodb.net/mailer?retryWrites=true&w=majority';
 
