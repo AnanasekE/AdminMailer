@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/src/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailbox/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/login/service/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/service/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/messages/messages.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/messages.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/messages/service/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/messages/service/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/users/service/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/service/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/users/users.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/users/users.route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mailbox" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -126,7 +117,7 @@
       <workItem from="1673421343696" duration="2033000" />
       <workItem from="1673436557006" duration="4267000" />
       <workItem from="1673618693740" duration="5406000" />
-      <workItem from="1673855011795" duration="20037000" />
+      <workItem from="1673855011795" duration="27127000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1669043212143</created>
@@ -163,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673422181373</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1673942145055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673942145055</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <created>1673942222825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673942222825</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

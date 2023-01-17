@@ -3,6 +3,7 @@ import './Login.scss';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+
 const Login = () => {
     const emailRef = React.createRef();
     const passwordRef = React.createRef();
@@ -19,7 +20,6 @@ const Login = () => {
 
         const response = await axios.post('/api/admin/login', data)
 
-        console.log(response);
         if (response.data.success) {
             sessionStorage.setItem('token', response.data.token);
             navigate('/dashboard');

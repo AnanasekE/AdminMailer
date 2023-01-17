@@ -8,18 +8,20 @@ const Dashboard = () => {
 
     const navigate = useNavigate();
 
-    const verifyToken = async () => {
-        const token = sessionStorage.getItem('token');
-        const response = await axios.post('/api/token/verify', {token}, {});
-
-        if (!response.data.success) {
-            navigate('/login');
-        }
-    }
-
     useEffect(() => {
+
+        const verifyToken = async () => {
+            try {
+                const token = sessionStorage.getItem('token');
+                await axios.post('/api/token/verify', {token}, {});
+
+            } catch (e) {
+                navigate('/login');
+            }
+        };
+
         verifyToken();
-    }, [])
+    }, [navigate])
 
     const [users, setUsers] = useState([]);
 
@@ -118,8 +120,10 @@ const Dashboard = () => {
                         <p className={'email'}>{user.email.length < 25 ? user.email : user.email.substr(0, 22) + '...'}</p>
                         <p className={'password'}>{user.password.length < 25 ? user.password : user.password.substr(0, 22) + '...'}</p>
                         <button onClick={() => {
-                            removeUser(user._id)}
-                        }>Remove User</button>
+                            removeUser(user._id)
+                        }
+                        }>Remove User
+                        </button>
                     </div>
                 ))}
             </div>

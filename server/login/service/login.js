@@ -10,9 +10,7 @@ const login = async (req, res) => {
 
         // console.log(user);
         // console.log(req.url)
-        // console.log(user);
-        // console.log(user.admin)
-        if (user.admin && req.url === '/api/admin/login') {
+        if (user.admin === true && req.url === '/api/admin/login') {
             // Admin Login
             if (!user) return res.status(200).json({success: false});
 
