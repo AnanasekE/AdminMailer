@@ -8,8 +8,6 @@ const login = async (req, res) => {
     try {
         const user = await User.findOne({'email': data.email});
 
-        // console.log(user);
-        // console.log(req.url)
         if (user.admin === true && req.url === '/api/admin/login') {
             // Admin Login
             if (!user) return res.status(200).json({success: false});
@@ -19,15 +17,17 @@ const login = async (req, res) => {
 
                 return res.status(200).json({success: true, token});
             }
-        } else {
+        } if (user.admin === false && req.url === '/api/user/login') {
             // User Login
             if (!user) return res.status(200).json({success: false});
 
             if (data.password === user.password) {
-                const token = jwt.sign({email: user.email}, 'admin4123');
+                const token = jwt.sign({email: user.email, admin: user.admin}, 'admin4123');
 
                 return res.status(200).json({success: true, token, email: user.email});
             }
+        } else {
+            return res.status(200).json({success: false});
         }
 
     } catch (error) {

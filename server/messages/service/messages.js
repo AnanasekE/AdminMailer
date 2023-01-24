@@ -1,37 +1,30 @@
 const Message = require('../../models/message');
 
 const getMessages = async (req, res) => {
-    const {receiver} = req.body;
-    const messages = await Message.find().where('receiver').equals(receiver).limit(20).sort({date: -1});
+    const client = req.body;
+    const messages = await Message.find({$or: [{receiver: client.email}, {sender: client.email}]}).sort({date: -1});
+
 
     const response = {
         success: true,
-        messages,
+        messagesSent: messages.filter(message => message.sender === client.email),
+        messagesReceived: messages.filter(message => message.receiver === client.email),
     };
 
     return res.status(200).json(response);
 };
 
-const getMessagesSent = async (req, res) => {
-
-    const {sender} = req.body;
-    const messagesSent = await Message.find().where('sender').equals(sender).limit(20).sort({date: -1});
-
-
-
-    const response = {
-        success: true,
-        messagesSent,
-    };
-
-    return res.status(200).json(response);
-}
 const markAsRead = async (req, res) => {
     const {id} = req.body;
     try {
         const message = await Message.findById(id);
-        message.read = true;
-        await message.save();
+        if (message.read === false) {
+            message.read = true;
+            await message.save();
+        } else {
+            message.read = false;
+            await message.save();
+        }
 
         const response = {
             success: true,
@@ -44,7 +37,6 @@ const markAsRead = async (req, res) => {
 }
 
 const removeMessage = async (req, res) => {
-
     const {id} = req.body;
     try {
         await Message.findByIdAndDelete(id);
@@ -73,7 +65,6 @@ const addMessage = async (req, res) => {
 module.exports = {
     getMessages,
     addMessage,
-    getMessagesSent,
     removeMessage,
     markAsRead,
 };

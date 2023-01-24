@@ -2,13 +2,6 @@ const User = require('../../models/user');
 const addUser = async (req, res) => {
     const data = req.body;
 
-
-    // TODO make this work
-    // console.log('notyet')
-    // const decoded = jwt.verify(req.token, 'admin4123')
-    // console.log('decoded')
-    // if (!decoded.admin) return res.status(403).json({success: false});
-
     try {
         const
             name = data.name,
@@ -77,7 +70,6 @@ const getEmails = async (req, res) => {
         const emails = users.map(user => user.email);
 
 
-        // console.log(emails)
         const response = {
             success: true,
             emails,

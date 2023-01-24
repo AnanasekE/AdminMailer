@@ -3,9 +3,8 @@ const router = express.Router();
 const messageService = require('./service');
 
 router.post('/api/messages', messageService.addMessage);
-router.post('/api/getMessages', messageService.getMessages);
-router.post('/api/getMessagesSent', messageService.getMessagesSent);
-router.post('/api/removeMessage', messageService.removeMessage);
-router.post('/api/markAsRead', messageService.markAsRead);
+router.post('/api/get_messages', messageService.getMessages);
+router.post('/api/remove_message', messageService.removeMessage);
+router.post('/api/mark_as_read', messageService.markAsRead);
 
 module.exports = router;

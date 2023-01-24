@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
 const verifyToken = async (req, res, next) => {
-    const token = req.body.token;
+    const token = req.body.token || req.query.token;
     try {
         jwt.verify(token, 'admin4123');
         next();
