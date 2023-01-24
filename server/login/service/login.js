@@ -3,21 +3,22 @@ const jwt = require('jsonwebtoken');
 
 const login = async (req, res) => {
     const data = req.body;
+    console.log(data);
 
 
     try {
         const user = await User.findOne({'email': data.email});
 
-        if (user.admin === true && req.url === '/api/admin/login') {
+        if (!user) return res.status(200).json({success: false});
+
+        if (data.password === user.password && user.admin && req.url === '/api/admin/login') {
             // Admin Login
-            if (!user) return res.status(200).json({success: false});
+            const token = jwt.sign({email: user.email, admin: user.admin}, 'admin4123');
 
-            if (data.password === user.password && user.admin) {
-                const token = jwt.sign({email: user.email, admin: user.admin}, 'admin4123');
+            return res.status(200).json({success: true, token});
 
-                return res.status(200).json({success: true, token});
-            }
-        } if (user.admin === false && req.url === '/api/user/login') {
+        }
+        if (req.url === '/api/user/login') {
             // User Login
             if (!user) return res.status(200).json({success: false});
 
@@ -27,7 +28,7 @@ const login = async (req, res) => {
                 return res.status(200).json({success: true, token, email: user.email});
             }
         } else {
-            return res.status(200).json({success: false});
+            return res.status(401).json({success: false});
         }
 
     } catch (error) {

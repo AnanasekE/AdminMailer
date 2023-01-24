@@ -10,7 +10,7 @@ const userApi = require('./server/users');
 const messagesApi = require('./server/messages');
 const tokensApi = require('./server/tokens');
 
-app.use('/', express.static(__dirname + '/public'));
+app.use('/', express.static(__dirname + '/public/'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json({ limit: '2mb' }));
 app.use(cookieParser());

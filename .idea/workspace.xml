@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/admin/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/scripts/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/dashboard/Dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/static/css/main.fb5d5cf9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/static/css/main.fb5d5cf9.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/static/js/main.da9ad4dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/static/js/main.da9ad4dd.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/static/js/main.da9ad4dd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/login/service/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/login/service/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <workItem from="1674130693749" duration="3639000" />
       <workItem from="1674223641194" duration="119000" />
       <workItem from="1674224866154" duration="2425000" />
-      <workItem from="1674553349253" duration="8307000" />
+      <workItem from="1674553349253" duration="11618000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1669043212143</created>

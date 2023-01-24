@@ -94,10 +94,7 @@ const Dashboard = () => {
 
             <div className={'listEmails'}>
                 <div className={'field'}>
-                    <h3>Name</h3>
-                    <h3>Surname</h3>
-                    <h3>Email</h3>
-                    <h3>Password</h3>
+                    <h3>Name | Surname | Email | Password</h3>
                 </div>
                 {users.map(user => (
                     <div key={user._id} className={'users'}>
