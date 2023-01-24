@@ -6,6 +6,7 @@ module.exports = function (app) {
             '/api/admin/login',
             '/api/users',
             '/api/users/remove',
+            '/api/token/verify',
         ],
         createProxyMiddleware({
             target: 'http://localhost:8080',

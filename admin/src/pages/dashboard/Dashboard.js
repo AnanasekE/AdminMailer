@@ -2,26 +2,10 @@ import React, {useEffect} from 'react';
 import './Dashboard.scss';
 import axios from "axios";
 import {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {ToastContainer, toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Dashboard = () => {
-
-    const navigate = useNavigate();
-
-    useEffect(() => {
-
-        const verifyToken = async () => {
-            try {
-                const token = sessionStorage.getItem('token');
-                await axios.post('/api/token/verify', {token}, {});
-
-            } catch (e) {
-                navigate('/login');
-            }
-        };
-
-        verifyToken();
-    }, [navigate])
 
     const [users, setUsers] = useState([]);
 
@@ -47,6 +31,9 @@ const Dashboard = () => {
 
     };
 
+    const notifyAddUserSuccess = () => toast.success("User Added");
+    const notifyAddUserError = () => toast.error("User Not Added");
+
     const addUser = async (e) => {
         e.preventDefault();
 
@@ -65,17 +52,17 @@ const Dashboard = () => {
 
         const data = {name, surname, email, password};
 
-        console.log(data);
         try {
             const response = await axios.post('/api/users', data, {});
 
             if (response.data.success) {
                 getUsers();
-                alert('User added');
+                notifyAddUserSuccess();
             }
 
         } catch (error) {
             console.log(error);
+            notifyAddUserError();
         }
 
     };
@@ -91,17 +78,16 @@ const Dashboard = () => {
         getUsers();
     }, []);
 
+
     return (
         <div className='Dashboard-container'>
+            <ToastContainer theme={"dark"} position={"bottom-right"}/>
             <h1>Welcome in mailer Dashboard</h1>
-
             <form>
-                {/*TODO remove default values in production*/}
-                <input ref={nameRef} type='text' placeholder='Name' defaultValue={'test1'}/>
-                <input ref={surnameRef} type='text' placeholder='Surname' defaultValue={'test1'}/>
-                <input ref={emailRef} type='text' placeholder='Email'
-                       defaultValue={'test' + Math.floor(Math.random() * 9999) + '@test.com'}/>
-                <input ref={passwordRef} type='text' placeholder='Password' defaultValue={'test1'}/>
+                <input ref={nameRef} type='text' placeholder='Name'/>
+                <input ref={surnameRef} type='text' placeholder='Surname'/>
+                <input ref={emailRef} type='text' placeholder='Email'/>
+                <input ref={passwordRef} type='text' placeholder='Password'/>
                 <button onClick={addUser}>Dodaj</button>
             </form>
             <h2 className={'emailList'}>Email list</h2>
