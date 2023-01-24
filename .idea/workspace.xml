@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec1db538-c529-4874-ae3b-930f4708a04b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/alerts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/pages/login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/pages/messages/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailbox/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/mailbox/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +135,7 @@
       <workItem from="1674130693749" duration="3639000" />
       <workItem from="1674223641194" duration="119000" />
       <workItem from="1674224866154" duration="2425000" />
-      <workItem from="1674553349253" duration="7990000" />
+      <workItem from="1674553349253" duration="8307000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1669043212143</created>
